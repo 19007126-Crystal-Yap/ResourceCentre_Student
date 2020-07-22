@@ -49,7 +49,7 @@ public class ResourceCentreTest {
 		assertEquals("Test that Camcorder arraylist size is 2?", 2, camcorderList.size());
 	}
 	@Test
-	public void addChromebookTest() {//done by luvvie
+	public void addChromebookTest() {//done by Luvvie
 		//fail("Not yet implemented");
 		// write your code here
 		//Item list is not null, so new item is added

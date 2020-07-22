@@ -159,7 +159,7 @@ public class ResourceCentre {
 
 	// ================================= Option 2 Add
 	// =================================
-	public static Camcorder inputCamcorder() {
+	public static Camcorder inputCamcorder() { 
 		String tag = Helper.readString("Enter asset tag > ");
 		String description = Helper.readString("Enter description > ");
 		int zoom = Helper.readInt("Enter optical zoom > ");
@@ -175,7 +175,7 @@ public class ResourceCentre {
 		System.out.println("Camcorder added");
 	}
 
-	public static Chromebook inputChromebook() {
+	public static Chromebook inputChromebook() { //done by Luvvie
 		Chromebook cb = null;
 		// write your code here
 		String cAssetTag = Helper.readString("Enter asset tag > ");
@@ -186,7 +186,7 @@ public class ResourceCentre {
 
 	}
 
-	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
+	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) { //Luvvie
 		// write your code here
 		chromebookList.add(cb);
 		System.out.println("Chromebook added");
